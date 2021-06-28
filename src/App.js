@@ -4,6 +4,8 @@ import Heading from './Heading';
 
 import './App.css';
 
+import Form from './Form';
+
 class App extends Component {
 
 
@@ -23,6 +25,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+        <Form />
         
         <Heading textColor={this.state.classValue} />
         
